@@ -1,0 +1,68 @@
+#+title: ${title}
+#+roam_key: ${ref}
+#+roam_tags: article ${tags}
+#+created: %<%Y-%m-%d %H:%M>
+#+last_modified: %u
+
+* Metadata
+:PROPERTIES:
+:Custom_ID: ${citekey}
+:URL: ${url}
+:Author: ${author}
+:Year: ${year}
+:Journal: ${journal}
+:File: [[file:${file}]]  ; Link to the local PDF
+:DOI: ${doi}
+:END:
+
+* Abstract
+<%-- Abstract of the paper --%>
+
+* One-Sentence Summary
+<%-- Distill the core finding into a single sentence --%>
+
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ${file}  <!-- If you use org-noter -->
+:END:
+
+** Core Research Question
+What problem is this work trying to solve?
+
+** Hypotheses & Methods
+How did the authors attempt to answer the question?
+
+** Key Results & Findings
+What did they discover? (Focus on facts, data).
+
+** Conclusion & Interpretation
+What is the authors' main answer/takeaway? What do *they* think it means?
+
+** Limitations (as noted by authors)
+...
+
+** Limitations (my critique)
+...
+
+** Connections & Insights
+- What does this remind me of?
+- How does it connect to my other work?
+- [[Link to another concept or note]]
+- Ideas for future work:
+
+** Key Quotes
+- "Quote text here" (p. 12) / Page [[${file}::12][12]] <!-- Page number & PDF link -->
+
+** Keywords / Concepts
+- #concept_key_term_1
+- #concept_key_term_2
+- [[Another Linked Concept]]
+
+* References
+- Full Citation::
+  %^{cite}
+- BibTeX Entry::
+  #+begin_src bibtex
+  %^{bibtex}
+  #+end_src
