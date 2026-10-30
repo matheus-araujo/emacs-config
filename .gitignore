@@ -1,0 +1,11 @@
+*~
+transient/
+elpa/
+auto-save-list
+eln-cache/
+org-roam.db
+recentf
+bookmarks
+.org-id-locations
+.lsp-session-v1
+tramp
